@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hackathon-project';
+  search_item!: string;
+  submit() {
+
+  }
 }
