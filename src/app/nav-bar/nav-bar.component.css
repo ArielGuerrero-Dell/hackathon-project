@@ -1,0 +1,8 @@
+button{
+    color: #0076CE; 
+    border-color: #0076CE;
+}
+
+button:hover{
+    background-color:#0076CE ;
+} 
