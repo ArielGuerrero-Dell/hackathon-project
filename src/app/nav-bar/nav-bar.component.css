@@ -7,3 +7,57 @@ button:hover{
     background-color:#0076CE ;
     border-color: #0076CE;
 } 
+
+
+.form {
+    position: relative;
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 19px;
+    left: 16px;
+    color: #9ca3af;
+}
+
+.form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+}
+
+.form-input {
+    height: 58px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: solid;
+    border-color: gainsboro;
+}
+
+/* Style buttons */
+.btn {
+    padding-bottom: 30px;
+    outline: none;
+    border: none; /* Remove borders */
+    box-shadow: none !important;
+    background-color: white; /* Blue background */
+   
+    color:#0076CE ; /* White text */
+    cursor: pointer; /* Mouse pointer on hover */
+    width: 20px;
+    height: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: white; /* Blue background */
+    border: none; /* Remove borders */
+    color:#0076CE ; /* White text */
+    cursor: pointer; /* Mouse pointer on hover */
+}

@@ -3,7 +3,7 @@
     <div class="container-fluid">
 
         <a class="navbar-brand" href="https://www.delltechnologies.com/en-us/utilities/global-site-selector.htm">
-            <img src=".\assets\img\Dell_Logo_Blue_rgb.png" width="55" height="55">
+            <img src=".\assets\img\Dell_Logo_Blue_rgb.png" width="50" height="50">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -41,10 +41,40 @@
                 </li>
 
             </ul>
+
+
+
+            <div class="container">
+                <div class="row height d-flex justify-content-end">
+                    <div class="col-md-6">
+                        <div class="form" action="https://inside.dell.com/search.jspa"> <i class="fa fa-search"></i>
+                            <input type="text" class="form-control form-input" placeholder="Search Assistive Tech">
+                            <span class="left-pan"><button class="btn" (click)="startService()"><i
+                                        class=" fa fa-microphone"></i></button></span>
+
+                            <input type="submit" style="display: none" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 
             <form class="d-flex" action="https://inside.dell.com/search.jspa">
+                <div class="form"><input type="text" class="form-control form-input">
+                    <span class="left-pan"><i class="fa fa-microphone"></i></span>
+                </div>
+
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+
+
+            <!-- <form class="d-flex" action="https://inside.dell.com/search.jspa">
                 <input class="form-control me-2" type="search" aria-label="Search" id="q" name="q">
                 <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            </form> -->
+
+
         </div>
     </div>
 </nav>
