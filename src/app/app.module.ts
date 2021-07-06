@@ -10,6 +10,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { TopTenAccordionComponent } from './top-ten-accordion/top-ten-accordion.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { FooterBarComponent } from './footer-bar/footer-bar.component';
+import { TrueAbilityErgCardComponent } from './true-ability-erg-card/true-ability-erg-card.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { FooterBarComponent } from './footer-bar/footer-bar.component';
     TopTenAccordionComponent,
     CarouselComponent,
     FooterBarComponent,
+    TrueAbilityErgCardComponent,
   ],
   imports: [
     BrowserModule,

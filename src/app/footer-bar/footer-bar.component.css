@@ -2,8 +2,20 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #5a5a5a;
+    /* color: white; */
+    /* background-color: white; */
+  }
+  p{
+    /* color: white; */
   }
   #company-name-and-terms{
     text-justify: auto;
+    /* color: white; */
+  }
+  hr {
+    /* color: white; */
+  }
+  a{
+    /* color: white; */
+    text-decoration: none;
   }
