@@ -8,7 +8,7 @@ button:hover{
     border-color: #0076CE;
 } 
 
-
+/* 
 .form {
     position: relative;
 }
@@ -38,7 +38,7 @@ button:hover{
     box-shadow: none;
     border: solid;
     border-color: gainsboro;
-}
+} */
 
 /* Style buttons */
 .btn {
@@ -46,7 +46,7 @@ button:hover{
     outline: none;
     border: none; /* Remove borders */
     box-shadow: none !important;
-    background-color: white; /* Blue background */
+    background-color: #f9fafb; /* Blue background */
    
     color:#0076CE ; /* White text */
     cursor: pointer; /* Mouse pointer on hover */
@@ -56,8 +56,8 @@ button:hover{
 
 /* Darker background on mouse-over */
 .btn:hover {
-    background-color: white; /* Blue background */
+    background-color: #0076CE;
     border: none; /* Remove borders */
-    color:#0076CE ; /* White text */
+    color:#f9fafb ; /* White text */
     cursor: pointer; /* Mouse pointer on hover */
 }

@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { VoiceRecognitionService } from '../voice-recognition.service'
+import { Component, Input, OnInit } from '@angular/core';
 
 declare var webkitSpeechRecognition: any;
 
@@ -7,29 +6,32 @@ declare var webkitSpeechRecognition: any;
   selector: 'app-nav-bar',
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.css'],
-  providers: [VoiceRecognitionService]
 })
 export class NavBarComponent implements OnInit {
 
-  recognition = new webkitSpeechRecognition();
+  text = '';
 
-  public text = '';
+  recognition = new webkitSpeechRecognition();
 
   constructor() { }
 
   ngOnInit(): void {
+    this.recognition.lang = 'en-US';
   }
 
-  startService() {
+  start() {
     this.recognition.start();
-
     console.log("Speech recognition started");
-
     this.recognition.onresult = function (event: any) {
       this.text = event.results[0][0].transcript;
-      console.log(this.text);
+
+      var output = (<HTMLInputElement>document.getElementById('q'));
+      if (output) {
+        output.value = this.text;
+        document.forms[0].submit();
+        console.log(this.text);
+      }
     }
   }
-
 
 }

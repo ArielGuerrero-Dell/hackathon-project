@@ -43,8 +43,36 @@
             </ul>
 
 
+            <!-- <div class="container">
+                <div class="row height d-flex justify-content-end">
+                    <div class="col-md-6">
 
-            <div class="container">
+                        <div class="form" action="https://inside.dell.com/search.jspa">
+                            <i class="fa fa-search"></i>
+                            <input class="form-control me-2" type="search" aria-label="Search" id="q" name="q"
+                                placeholder="Search Assistive Tech">
+                            <input type="submit" style="display: none">
+                            <span class="left-pan"><button class="btn" type="submit" (click)="startService()"><i
+                                        class=" fa fa-microphone"></i></button></span>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div> -->
+
+            <form class="d-flex" action="https://inside.dell.com/search.jspa" style="width: 35%; min-width: 350px;">
+                <input class="form-control me-2" type="search" aria-label="Search" id="q" name="q"
+                    placeholder="Search Assistive Technology">
+                <button class="btn btn-outline-success" type="submit" style="display: none"></button>
+                <button class="btn" type="button" (click)="start()"><i class=" fa fa-microphone"></i></button>
+            </form>
+
+
+
+
+            <!-- <div class="container">
                 <div class="row height d-flex justify-content-end">
                     <div class="col-md-6">
                         <div class="form" action="https://inside.dell.com/search.jspa"> <i class="fa fa-search"></i>
@@ -52,12 +80,12 @@
                             <span class="left-pan"><button class="btn" (click)="startService()"><i
                                         class=" fa fa-microphone"></i></button></span>
 
-                            <input type="submit" style="display: none" />
+
                         </div>
 
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- 
             <form class="d-flex" action="https://inside.dell.com/search.jspa">
