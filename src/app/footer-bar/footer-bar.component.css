@@ -1,0 +1,24 @@
+
+body {
+
+  /* color: white; */
+    /* background-color: white; */
+    max-height: 20px;
+    min-height: 20px;
+  }
+
+  a{
+    /* color: white; */
+    text-decoration: none;
+  }
+
+  /* #company-name-and-terms{
+   
+    
+  } */
+
+
+  hr{
+    margin-top: 90px;
+    margin-bottom: 10px;
+  }

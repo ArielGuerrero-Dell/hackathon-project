@@ -1,0 +1,69 @@
+<!-- Image and text -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="https://www.delltechnologies.com/en-us/utilities/global-site-selector.htm">
+            <img src=".\assets\img\Dell_Logo_Blue_rgb.png" width="50" height="50" alt="Blue Dell Logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://dell.service-now.com/hrportal"
+                        target="_blank">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://askjan.org/a-to-z.cfm" target="_blank">Reference</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
+                        aria-expanded="false">Help</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                        <li><a class="dropdown-item" href="https://accessibility.dell.com/"
+                                target="_blank">Accessibility at Dell
+                            </a></li>
+                        <li><a class="dropdown-item" href="https://accessibility.dell.com/guides-and-checklists/"
+                                target="_blank">Accessibility Guides &
+                                Checklists
+                            </a></li>
+                        <li><a class="dropdown-item" href="https://accessibility.dell.com/webinars-and-videos/"
+                                target="_blank">Webinars
+                                & Videos</a></li>
+                        <li><a class="dropdown-item"
+                                href="https://accessibility.dell.com/webinars/how-to-understand-the-wcag/"
+                                target="_blank">Web Content
+                                Accessibility Guidelines Explained</a></li>
+                        <li><a class="dropdown-item"
+                                href="https://inside.dell.com/community/active/assistive-technology/pages/resources/"
+                                target="_blank">
+                                Self-Serve Assistive Technology Training</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <form class="d-flex" action="https://inside.dell.com/search.jspa" style="width: 35%; min-width: 350px;"
+                target="_blank">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16" id="search-icon">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+
+                <input class="form-control me-2" type="search" aria-label="Search Assistive Technology" id="q" name="q"
+                    placeholder="Search Assistive Technology" style="min-width: 350px;">
+
+                <button class="btn btn-outline-success" type="submit" style="display: none"></button>
+
+                <button class="btn" type="button" (click)="start()"><i class="fa fa-microphone"></i></button>
+            </form>
+
+        </div>
+    </div>
+</nav>

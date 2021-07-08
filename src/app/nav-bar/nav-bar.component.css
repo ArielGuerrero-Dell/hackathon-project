@@ -1,0 +1,44 @@
+/* button{
+    color: #0076CE; 
+    border-color: #0076CE;
+}
+
+button:hover{
+    background-color:#0076CE ;
+    border-color: #0076CE;
+}  */
+
+/* Style buttons */
+.btn {
+    /* padding-bottom: 30px; */
+    
+    outline: none;
+    /* border: none; Remove borders */
+    border-radius: 100px;
+    cursor: pointer; /* Mouse pointer on hover */
+    background-color: #0076CE;
+    border: none; /* Remove borders */
+    color:#f9fafb ;
+    cursor: pointer; /* Mouse pointer on hover */
+ 
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    /* box-shadow: none !important; */
+    background-color: #f9fafb; /* Blue background */
+    border-radius: 100px;
+    color:#0076CE ; /* White text */
+    border-color: #0076CE;
+}
+
+#search-icon{
+    position: absolute; 
+    margin-top: 10px;
+    margin-left: 10px;   
+    color: #0076CE;
+}
+
+#q {
+    text-indent: 25px;
+}
