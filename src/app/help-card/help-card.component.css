@@ -8,10 +8,11 @@ label {
     font-size: larger;
     font-weight: bolder;
 }
-button.accordion-button {
-    font-size: large;
-    font-weight: bolder;
+a {
+    text-decoration: none;
+    font-weight: bold;
 }
-div.accordion-body {
+#pipe {
     font-size: larger;
+    font-weight: bolder;
 }

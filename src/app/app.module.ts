@@ -11,6 +11,8 @@ import { TopTenAccordionComponent } from './top-ten-accordion/top-ten-accordion.
 import { CarouselComponent } from './carousel/carousel.component';
 import { FooterBarComponent } from './footer-bar/footer-bar.component';
 import { TrueAbilityErgCardComponent } from './true-ability-erg-card/true-ability-erg-card.component';
+import { HelpCardComponent } from './help-card/help-card.component';
+import { TechSuggestionCardComponent } from './tech-suggestion-card/tech-suggestion-card.component';
 
 
 @NgModule({
@@ -21,6 +23,8 @@ import { TrueAbilityErgCardComponent } from './true-ability-erg-card/true-abilit
     CarouselComponent,
     FooterBarComponent,
     TrueAbilityErgCardComponent,
+    HelpCardComponent,
+    TechSuggestionCardComponent,
   ],
   imports: [
     BrowserModule,
