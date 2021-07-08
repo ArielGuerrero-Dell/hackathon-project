@@ -1,22 +1,22 @@
 
 body {
-    /* padding-top: 3rem; */
-    /* padding-bottom: 3rem; */
-    /* color: white; */
+
+  /* color: white; */
     /* background-color: white; */
-    size: initial;
+    max-height: 20px;
+    min-height: 20px;
   }
-  p{
-    /* color: white; */
-  }
-  #company-name-and-terms{
-    text-justify: auto;
-    /* color: white; */
-  }
-  hr {
-    /* color: white; */
-  }
+
   a{
     /* color: white; */
     text-decoration: none;
+  }
+
+  #company-name-and-terms{
+   
+    /* color: white; */
+  }
+  hr{
+    margin-top: 90px;
+    margin-bottom: 10px;
   }
