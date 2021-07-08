@@ -12,10 +12,12 @@ body {
     text-decoration: none;
   }
 
-  #company-name-and-terms{
+  /* #company-name-and-terms{
    
-    /* color: white; */
-  }
+    
+  } */
+
+
   hr{
     margin-top: 90px;
     margin-bottom: 10px;
