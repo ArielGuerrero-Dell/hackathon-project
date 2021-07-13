@@ -13,6 +13,7 @@ import { FooterBarComponent } from './footer-bar/footer-bar.component';
 import { TrueAbilityErgCardComponent } from './true-ability-erg-card/true-ability-erg-card.component';
 import { HelpCardComponent } from './help-card/help-card.component';
 import { TechSuggestionCardComponent } from './tech-suggestion-card/tech-suggestion-card.component';
+import { InspireImgQuoteCarouselComponent } from './inspire-img-quote-carousel/inspire-img-quote-carousel.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { TechSuggestionCardComponent } from './tech-suggestion-card/tech-suggest
     TrueAbilityErgCardComponent,
     HelpCardComponent,
     TechSuggestionCardComponent,
+    InspireImgQuoteCarouselComponent,
   ],
   imports: [
     BrowserModule,
