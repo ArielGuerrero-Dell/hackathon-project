@@ -12,6 +12,8 @@ label {
 button.accordion-button {
     font-size: large;
     font-weight: bolder;
+       
+    color: #0076CE;
 }
 div.accordion-body {
     font-size: larger;
@@ -21,3 +23,6 @@ a {
     font-weight: bold;
     color: #0076CE;
 }
+ a:hover{
+    text-decoration: underline;
+  }
