@@ -1,11 +1,13 @@
 div.card-header {
     text-align: center;
+    font-weight: bold;
     font-size: larger;
-    font-weight: bolder;
+    background-color: #0076CE;
 }
 label {
     font-size: larger;
     font-weight: bolder;
+    color: white;
 }
 button {
     white-space: nowrap;
